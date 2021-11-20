@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:id="@+id/calc_title"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+- Calculator */"
+            android:textSize="35sp"
+            android:layout_margin="15dp"
+            />
+
+        <EditText
+            android:id="@+id/calc_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc_title"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="25dp"
+            android:hint="Enter 1st No: "
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/calc_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/calc_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc_title"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="51dp"
+            android:layout_toEndOf="@+id/calc_sign"
+            android:hint="Enter 2nd No: "
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="17sp" />
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/calc_btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textSize="22sp"
+            android:layout_below="@+id/calc_num1"
+            />
+        <Button
+            android:id="@+id/calc_btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc_num2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginRight="50dp"
+            android:text="SUB"
+            android:textSize="22sp" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textAllCaps="false"
+            android:id="@+id/calc_btn_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUL"
+            android:textSize="22sp"
+            android:layout_below="@+id/calc_btn_add"
+            />
+        <Button
+            android:id="@+id/calc_btn_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc_btn_sub"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="50dp"
+            android:text="DIV"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/calc_btn_mod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calc_btn_mul"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="50dp"
+            android:text="MOD"
+            android:textSize="22sp" />
+        <TextView
+            android:layout_below="@+id/calc_btn_mul"
+            android:textColor="@color/black"
+            android:id="@+id/calc_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textSize="23sp"
+            android:layout_margin="20dp"
+            />
+</RelativeLayout>

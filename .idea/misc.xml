@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/drawable_shape_border_and_background_login.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/sun.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_converter.xml" value="0.25" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_login.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_maps.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_register.xml" value="0.16" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/audio_recorder.xml" value="0.25" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/data_display_Screen.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/data_display_creen.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/data_display_screen.xml" value="0.176" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/form_screen.xml" value="0.25" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/http_example.xml" value="0.1" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/image.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/json_example.xml" value="0.1" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/location.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/login_screen.xml" value="0.129981884057971" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/login_screen_shared_preference.xml" value="0.264" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/read_write_file.xml" value="0.25" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/shared_preference.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/video_player.xml" value="0.176" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/volley_layout.xml" value="0.1" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/welcome_screen.xml" value="0.129981884057971" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/wlecome_screen_shared_preference.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/menu/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/narot/AndroidStudioProjects/MyApplication2/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Convertor_options">
+
+        <item>Length(m to cm)</item>
+        <item>Weight(kg to lbs)</item>
+        <item>Currency($ to ₹ )</item>
+        <item>Currency(₹ to $ )</item>
+        <item>Temperature(°C to F)</item>
+
+    </string-array>
+    <string-array name="dropdownforclass">
+        <item>MCA2M</item>
+        <item>MCA2A</item>
+        <item>MCA3M</item>
+        <item>MCA3A</item>
+
+    </string-array>
+</resources>

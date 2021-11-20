@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:clipToPadding="false"
+    android:padding="30dp"
+    tools:context=".SharedPreferenceLoginScreen">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/anton"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.1"
+        android:paddingTop="120dp"
+        android:text="LOG"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/textView13"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="113dp"
+        android:fontFamily="@font/anton"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.1"
+        android:paddingTop="120dp"
+        android:text="IN"
+        android:textColor="#9C27B0"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EmailField"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView13"
+        android:layout_marginTop="39dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000" />
+
+    <EditText
+        android:id="@+id/PasswordField"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/EmailField"
+        android:layout_marginTop="37dp"
+        android:background="#EFEFEF"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBoxRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordField"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:minHeight="48dp"
+        android:shadowRadius="20"
+        android:text="Remember Me"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/email_sign_in_button"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxRememberMe"
+        android:layout_centerInParent="true"
+        android:background="#9C27B0"
+        android:hapticFeedbackEnabled="false"
+        android:paddingTop="10dp"
+        android:text="LOGIN OR REGISTER"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
