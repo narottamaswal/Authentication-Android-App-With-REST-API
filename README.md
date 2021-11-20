@@ -1,5 +1,4 @@
-Authentication-Android-App-With-Spring-Boot-REST-API-and-MYSQL-Database
- narottamaswal/Authentication-Android-App-With-Spring-Boot-REST-API-and-MYSQL-Database<br>
+Authentication-Android-App-With-Spring-Boot-REST-API-and-MYSQL-Database<br>
 ![image](https://user-images.githubusercontent.com/65083220/142724737-39a3834d-e51b-45ba-822c-46eaa6ed483e.png)
 ![image](https://user-images.githubusercontent.com/65083220/142724739-4d4e15dc-caa1-4e6d-a922-8a12c812919d.png)<br>
 ![image](https://user-images.githubusercontent.com/65083220/142724742-8a3a02fa-ebd7-462f-b3a0-0787477ca4a0.png)
